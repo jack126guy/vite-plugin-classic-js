@@ -4,6 +4,7 @@
 	"type": "module",
 	"author": "Half-Gray <halfgray7e@gmail.com>",
 	"license": "MIT",
+	"files": ["dist", "client.d.ts", "README.md", "LICENSE.txt"],
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
