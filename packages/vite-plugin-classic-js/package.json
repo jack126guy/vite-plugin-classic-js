@@ -13,6 +13,7 @@
 			"types": "./client.d.ts"
 		}
 	},
+	"keywords": ["vite-plugin", "vite"],
 	"scripts": {
 		"prepare": "tsc",
 		"check": "tsc --noEmit"
@@ -25,5 +26,13 @@
 		"@types/node": "^20.14.9",
 		"typescript": "^5.5.2",
 		"vite": "^5.3.1"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jack126guy/vite-plugin-classic-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jack126guy/vite-plugin-classic-js/issues"
+	},
+	"homepage": "https://github.com/jack126guy/vite-plugin-classic-js#readme"
 }
