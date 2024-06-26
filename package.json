@@ -1,18 +1,39 @@
 {
-	"name": "@halfgray/vite-plugin-classic-js-monorepo",
-	"private": true,
+	"name": "@halfgray/vite-plugin-classic-js",
+	"version": "0.1.1",
+	"type": "module",
 	"author": "Half-Gray <halfgray7e@gmail.com>",
 	"license": "MIT",
-	"scripts": {
-		"format": "prettier --write ."
+	"files": ["dist", "client.d.ts", "README.md", "LICENSE.txt"],
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./client": {
+			"types": "./client.d.ts"
+		}
 	},
-	"workspaces": [
-		"packages/vite-plugin-classic-js",
-		"packages/demo-astro4",
-		"packages/demo-astro3",
-		"packages/demo-nuxt3"
-	],
+	"keywords": ["vite-plugin", "vite"],
+	"scripts": {
+		"prepare": "tsc",
+		"check": "tsc --noEmit"
+	},
+	"peerDependencies": {
+		"esbuild": "*",
+		"vite": "^4 || ^5"
+	},
 	"devDependencies": {
-		"prettier": "^3.3.2"
-	}
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.2",
+		"vite": "^5.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jack126guy/vite-plugin-classic-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jack126guy/vite-plugin-classic-js/issues"
+	},
+	"homepage": "https://github.com/jack126guy/vite-plugin-classic-js#readme"
 }
