@@ -17,7 +17,8 @@
 	"keywords": ["vite-plugin", "vite"],
 	"scripts": {
 		"prepare": "tsc",
-		"check": "tsc --noEmit"
+		"check": "tsc --noEmit",
+		"format": "prettier --write ."
 	},
 	"peerDependencies": {
 		"esbuild": "*",
@@ -25,6 +26,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^20.14.9",
+		"prettier": "^3.3.2",
 		"typescript": "^5.5.2",
 		"vite": "^5.3.1"
 	},
