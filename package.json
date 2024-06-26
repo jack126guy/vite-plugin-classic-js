@@ -8,7 +8,7 @@
 	},
 	"workspaces": [
 		"packages/vite-plugin-classic-js",
-		"packages/demo-astro",
+		"packages/demo-astro4",
 		"packages/demo-astro3"
 	],
 	"devDependencies": {
