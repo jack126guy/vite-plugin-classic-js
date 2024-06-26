@@ -1,0 +1,15 @@
+{
+	"name": "@halfgray/vite-plugin-classic-js-demo-nuxt3",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"nuxt": "^3.12.2"
+	}
+}
