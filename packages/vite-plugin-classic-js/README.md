@@ -18,11 +18,15 @@ export default defineConfig({
 });
 ```
 
-Currently, no configuration options are provided.
+Currently, no configuration options for the plugin are provided.
+
+Note that some frameworks use their own configuration file for Vite plugins, so check the documentation for the framework you are using.
 
 ## Usage
 
 Classic scripts are identified with a `.cljs` file extension. Importing a classic script results in a URL which can be used for the `src` attribute of a `<script>` element, similar to other [static assets](https://vitejs.dev/guide/assets.html).
+
+Demos are available on [GitHub](https://github.com/jack126guy/vite-plugin-classic-js/tree/main/packages).
 
 ## License
 
