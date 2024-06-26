@@ -6,7 +6,11 @@
 	"scripts": {
 		"format": "prettier --write ."
 	},
-	"workspaces": ["packages/vite-plugin-classic-js", "packages/demo-astro"],
+	"workspaces": [
+		"packages/vite-plugin-classic-js",
+		"packages/demo-astro",
+		"packages/demo-astro3"
+	],
 	"devDependencies": {
 		"prettier": "^3.3.2"
 	}
