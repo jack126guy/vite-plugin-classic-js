@@ -1,6 +1,22 @@
 {
 	"name": "@halfgray/vite-plugin-classic-js",
 	"version": "0.1.0",
+	"type": "module",
 	"author": "Half-Gray <halfgray7e@gmail.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"prepare": "tsc",
+		"check": "tsc --noEmit"
+	},
+	"peerDependencies": {
+		"esbuild": "*",
+		"vite": "^5"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.2",
+		"vite": "^5.3.1"
+	}
 }
