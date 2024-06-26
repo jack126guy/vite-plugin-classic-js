@@ -3,7 +3,6 @@
 		"strict": true,
 		"module": "nodenext",
 		"target": "es2020",
-		"declaration": true,
 		"outDir": "dist/"
 	},
 	"include": ["src/**/*"]
