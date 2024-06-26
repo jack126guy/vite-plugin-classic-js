@@ -1,0 +1,1 @@
+packages/vite-plugin-classic-js/README.md
