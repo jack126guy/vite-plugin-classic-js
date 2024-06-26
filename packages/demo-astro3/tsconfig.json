@@ -1,8 +1,3 @@
 {
-	"extends": "astro/tsconfigs/strictest",
-	"compilerOptions": {
-		"paths": {
-			"vite": ["../../node_modules/vite"]
-		}
-	}
+	"extends": "astro/tsconfigs/strictest"
 }
