@@ -1,9 +1,13 @@
 {
-  "name": "@halfgray/vite-plugin-classic-js-monorepo",
-  "private": true,
-  "author": "Half-Gray <halfgray7e@gmail.com>",
-  "license": "MIT",
-  "workspaces": [
-    "packages/vite-plugin-classic-js"
-  ]
+	"name": "@halfgray/vite-plugin-classic-js-monorepo",
+	"private": true,
+	"author": "Half-Gray <halfgray7e@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"workspaces": ["packages/vite-plugin-classic-js"],
+	"devDependencies": {
+		"prettier": "^3.3.2"
+	}
 }
