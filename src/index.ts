@@ -24,7 +24,7 @@ export default function (): Plugin {
 				return null;
 			}
 			if (cljsExtension.test(source)) {
-				return resolve(dirname(importer), source);
+				return resolve(dirname(importer), source).replace(/\\/g, '/');
 			}
 			return null;
 		},
