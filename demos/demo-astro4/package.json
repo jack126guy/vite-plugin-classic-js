@@ -10,9 +10,9 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "^4.11.1",
 		"@astrojs/check": "^0.7.0",
-		"@halfgray/vite-plugin-classic-js": "^0.1.1",
+		"@halfgray/vite-plugin-classic-js": "^0.1.2",
+		"astro": "^4.11.1",
 		"typescript": "^5.5.2"
 	}
 }

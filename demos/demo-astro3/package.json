@@ -11,7 +11,7 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.7.0",
-		"@halfgray/vite-plugin-classic-js": "^0.1.1",
+		"@halfgray/vite-plugin-classic-js": "^0.1.2",
 		"astro": "^3.6.5",
 		"typescript": "^5.5.2"
 	}
