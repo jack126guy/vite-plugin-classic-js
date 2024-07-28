@@ -1,6 +1,6 @@
 {
 	"name": "@halfgray/vite-plugin-classic-js",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"type": "module",
 	"author": "Half-Gray <halfgray7e@gmail.com>",
 	"license": "MIT",
