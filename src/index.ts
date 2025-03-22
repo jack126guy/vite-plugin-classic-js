@@ -7,7 +7,7 @@ const esbuildOptions = {
 	minify: true,
 };
 
-const cljsExtension = /\.cljs$/;
+const clajsExtension = /\.(clajs|cljs)$/;
 
 export default function (): Plugin {
 	let command: string = null!;
@@ -23,17 +23,17 @@ export default function (): Plugin {
 			if (!importer) {
 				return null;
 			}
-			if (cljsExtension.test(source)) {
+			if (clajsExtension.test(source)) {
 				return resolve(dirname(importer), source).replace(/\\/g, '/');
 			}
 			return null;
 		},
 		async load(id) {
-			if (cljsExtension.test(id)) {
+			if (clajsExtension.test(id)) {
 				if (command === 'build') {
 					const referenceId = this.emitFile({
 						type: 'asset',
-						name: basename(id).replace(cljsExtension, '.js'),
+						name: basename(id).replace(clajsExtension, '.js'),
 						needsCodeReference: true,
 						source: (
 							await transform(await readFile(id), esbuildOptions)
@@ -48,7 +48,7 @@ export default function (): Plugin {
 			return null;
 		},
 		resolveFileUrl({ moduleId, fileName }) {
-			if (cljsExtension.test(moduleId)) {
+			if (clajsExtension.test(moduleId)) {
 				return JSON.stringify(join(base, fileName));
 			}
 			return null;

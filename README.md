@@ -24,7 +24,9 @@ Note that some frameworks use their own configuration file for Vite plugins, so 
 
 ## Usage
 
-Classic scripts are identified with a `.cljs` file extension. Importing a classic script results in a URL which can be used for the `src` attribute of a `<script>` element, similar to other [static assets](https://vitejs.dev/guide/assets.html).
+Classic scripts are identified with a `.clajs` file extension. Importing a classic script results in a URL which can be used for the `src` attribute of a `<script>` element, similar to other [static assets](https://vitejs.dev/guide/assets.html).
+
+(Note: For backwards compatibility, the older extension `.cljs` is also supported. However, this extension is deprecated.)
 
 Demos are available on [GitHub](https://github.com/jack126guy/vite-plugin-classic-js/tree/main/demos).
 
