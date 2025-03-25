@@ -41,7 +41,7 @@ export default function (): Plugin {
 					});
 					return `export default import.meta.ROLLUP_FILE_URL_${referenceId};`;
 				} else {
-					const scriptSrc = `${base}@fs${id[0] === '/' ? '' : '/'}${id}`;
+					const scriptSrc = `${base}@fs${id[0] === '/' ? '' : '/'}${id}?raw`;
 					return `export default ${JSON.stringify(scriptSrc)};`;
 				}
 			}
