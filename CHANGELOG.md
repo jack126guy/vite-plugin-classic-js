@@ -1,6 +1,14 @@
 # Changelog
 
+## 1.2.1 - 2025-03-25
+
+### Fixed
+
+* Fixed support for Vite 6
+
 ## 1.2.0 - 2025-03-25
+
+**This release is deprecated due to a bug in the support for Vite 6.**
 
 ### Added
 
