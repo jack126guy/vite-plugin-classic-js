@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 - 2025-03-25
+
+### Added
+
+* Added support for Vite 6 ([#2](https://github.com/jack126guy/vite-plugin-classic-js/issues/2))
+
 ## 1.1.0 - 2025-03-22
 
 **This changes the file extension for classic JS files to `.clajs`. The previous extension `.cljs` is deprecated but remains supported for backwards compatibility.**
