@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.2 - 2026-06-03
+
+**Known issue: Classic scripts are not copied properly when using Astro 6 in static mode ([#3](https://github.com/jack126guy/vite-plugin-classic-js/issues/3)).**
+
+* Added support for Vite 7 and 8
+
 ## 1.2.1 - 2025-03-25
 
 ### Fixed
