@@ -1,0 +1,21 @@
+{
+	"name": "@halfgray/vite-plugin-classic-js-demo-astro6",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.9",
+		"@astrojs/node": "^10.1.3",
+		"@halfgray/vite-plugin-classic-js": "1.2.2",
+		"astro": "^6.4.3",
+		"typescript": "^6.0.3"
+	}
+}
