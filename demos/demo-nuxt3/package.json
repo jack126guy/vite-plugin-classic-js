@@ -10,7 +10,7 @@
 		"postinstall": "nuxt prepare"
 	},
 	"dependencies": {
-		"@halfgray/vite-plugin-classic-js": "^1.2.1",
-		"nuxt": "^3.16.1"
+		"@halfgray/vite-plugin-classic-js": "^1.2.2",
+		"nuxt": "^3.21.7"
 	}
 }
