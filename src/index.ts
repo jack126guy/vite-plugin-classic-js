@@ -34,6 +34,7 @@ export default function (): Plugin {
 					const referenceId = this.emitFile({
 						type: 'asset',
 						name: basename(id).replace(clajsExtension, '.js'),
+						// @ts-expect-error Rolldown (used in Vite 8) does not support this option, but keep for prior Vite versions
 						needsCodeReference: true,
 						source: (
 							await transform(await readFile(id), esbuildOptions)
