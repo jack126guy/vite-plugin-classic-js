@@ -2,7 +2,11 @@
 
 This [Vite](https://vitejs.dev/) plugin enables imports of "classic" (non-module) scripts as static assets, with minification.
 
-**Note**: Although this plugin will work to some extent in a "vanilla" Vite project, it is better used with a framework on top of Vite. (The plugin was originally designed for [Astro](https://astro.build/) projects.) In particular, adding a classic script directly to `index.html` will not work.
+## Compatibility
+
+Although this plugin will work to some extent in a "vanilla" Vite project, it is better used with a framework on top of Vite. (The plugin was originally designed for [Astro](https://astro.build/) projects.) In particular, adding a classic script directly to `index.html` will not work.
+
+This plugin is not compatible with Astro 6 or later due to its [handing of client assets](https://github.com/jack126guy/vite-plugin-classic-js/issues/3). Please use [astro-plugin-classic-js](https://github.com/jack126guy/astro-plugin-classic-js) instead.
 
 ## Installation
 
